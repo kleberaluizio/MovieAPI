@@ -1,6 +1,5 @@
-package com.kleberaluizio.movies.domain.movie;
+package com.kleberaluizio.movies;
 
-import com.kleberaluizio.movies.domain.review.Review;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

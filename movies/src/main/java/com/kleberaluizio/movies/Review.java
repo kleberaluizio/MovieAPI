@@ -1,4 +1,4 @@
-package com.kleberaluizio.movies.domain.review;
+package com.kleberaluizio.movies;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -12,6 +12,10 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Review {
+
+    public Review (String body){
+        this.body = body;
+    }
     @Id
     private ObjectId id;
     private String body;
