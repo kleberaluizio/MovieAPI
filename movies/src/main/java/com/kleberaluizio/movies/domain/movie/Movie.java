@@ -1,5 +1,6 @@
-package com.kleberaluizio.movies;
+package com.kleberaluizio.movies.domain.movie;
 
+import com.kleberaluizio.movies.domain.review.Review;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -25,7 +26,7 @@ public class Movie {
     private String poster;
     private List<String> genres;
     private List<String> backdrops;
-    @DocumentReference // It will stores only ids, the Review Object will be in another collection
+    @DocumentReference // It will store only ids, the Review Object will be in another collection
     private List<Review> reviewsIds;
 
 

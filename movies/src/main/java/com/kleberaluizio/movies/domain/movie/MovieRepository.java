@@ -1,4 +1,4 @@
-package com.kleberaluizio.movies;
+package com.kleberaluizio.movies.domain.movie;
 
 import org.bson.types.ObjectId;
 import org.springframework.data.mongodb.repository.MongoRepository;
