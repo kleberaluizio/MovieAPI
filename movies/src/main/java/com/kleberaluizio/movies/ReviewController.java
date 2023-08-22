@@ -19,7 +19,6 @@ public class ReviewController {
 
     @PostMapping
     public ResponseEntity<Review> addReview(@RequestBody Map<String, String> payLoad){
-
         return new ResponseEntity<>(reviewService.createReview(payLoad.get("reviewBody"),payLoad.get("imdbId")), HttpStatus.CREATED);
     }
 }
